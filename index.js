@@ -2,7 +2,7 @@
 
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  const newObj = driver;
+  const newObj = {...obj};
   newObj[key] = value;
   return newObj;
 }
